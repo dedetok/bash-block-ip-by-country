@@ -21,5 +21,7 @@ To apply in iptables
 For example to block all IPV4 from China for port 21,22,25,80 and 443
 # iptables -A INPUT -p tcp -m multiport --dports 21,22,25,80,443 -m set --match-set ipv4_cn src -j DROP
 
+To make it persistent, follow your distribution guide how to load ipset and iptables rules everytime system start/restart or network start/restart.
+
 Not Working
 IPV6
