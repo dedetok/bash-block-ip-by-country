@@ -20,6 +20,7 @@ To apply in iptables
 # iptables -A INPUT -p tcp -m multiport --dports [any port you wish] -m set --match-set ipv4_[countrycode] src -j DROP
 For example to block all IPV4 from China for port 21,22,80 and 443
 # iptables -A INPUT -p tcp -m multiport --dports 21,22,80,443 -m set --match-set ipv4_cn src -j DROP
+# iptables -A INPUT -p udp --dport 22 -m set --match-set ipv4_cn src -j DROP
 To block all connection from China
 # iptables -A INPUT -m set --match-set ipv4_cn src -j DROP
 
