@@ -7,7 +7,7 @@ For IPV4: http://www.ipdeny.com/ipblocks/data/countries/
 For IPV6: http://www.ipdeny.com/ipv6/ipaddresses/blocks/
 
 To run:
-## ./blockcountryip.sh [countrycode]
+\# ./blockcountryip.sh [countrycode]
 For Example for China (CN)
 ## ./blockcountryip.sh cn
 
