@@ -47,6 +47,14 @@ Korea http://www.garasiku.web.id/ipv4.ipset.kr
 
 China http://www.garasiku.web.id/ipv4.ipset.cn
 
+Vietnam https://garasiku.web.id/ipv4.ipset.vn
+
+
+* Note
+
+Blocking China, US, Rusia, and Korea on your sensitive ports, reduce brute force attack significantly! 
+
+
 Not Working
 IPV6
 
