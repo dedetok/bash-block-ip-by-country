@@ -18,7 +18,7 @@ For Example for China (CN)
 
 To load it in memory 
 
-    # ipset restore < ipv4.ipset.[countrycode]
+    # ipset restore -! < ipv4.ipset.[countrycode]
 
 [countrycode] is 2 character country code https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2 
 
