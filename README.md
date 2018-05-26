@@ -37,19 +37,6 @@ To block all connection from China
 
 To make it persistent, follow your distribution guide how to load ipset and iptables rules everytime system start/restart or network start/restart.
 
-Download IPSET IPV4 
-
-Rusia http://www.garasiku.web.id/ipv4.ipset.ru 
-
-US http://www.garasiku.web.id/ipv4.ipset.us
-
-Korea http://www.garasiku.web.id/ipv4.ipset.kr
-
-China http://www.garasiku.web.id/ipv4.ipset.cn
-
-Vietnam https://garasiku.web.id/ipv4.ipset.vn
-
-
 * Note
 
 Blocking China, US, Rusia, and Korea on your sensitive ports, reduce brute force attack significantly! 
